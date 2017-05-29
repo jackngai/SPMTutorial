@@ -13,6 +13,8 @@
 		98199E381EDCB77900C7486B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98199E361EDCB77900C7486B /* Main.storyboard */; };
 		98199E3A1EDCB77900C7486B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98199E391EDCB77900C7486B /* Assets.xcassets */; };
 		98199E3D1EDCB77900C7486B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98199E3B1EDCB77900C7486B /* LaunchScreen.storyboard */; };
+		98199E461EDCB9D600C7486B /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98199E441EDCB9D600C7486B /* Data.plist */; };
+		98199E471EDCB9D600C7486B /* OtherData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98199E451EDCB9D600C7486B /* OtherData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		98199E391EDCB77900C7486B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98199E3C1EDCB77900C7486B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98199E3E1EDCB77900C7486B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98199E441EDCB9D600C7486B /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		98199E451EDCB9D600C7486B /* OtherData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OtherData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 		98199E311EDCB77900C7486B /* SPMTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				98199E441EDCB9D600C7486B /* Data.plist */,
+				98199E451EDCB9D600C7486B /* OtherData.plist */,
 				98199E321EDCB77900C7486B /* AppDelegate.swift */,
 				98199E341EDCB77900C7486B /* ViewController.swift */,
 				98199E361EDCB77900C7486B /* Main.storyboard */,
@@ -152,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				98199E3D1EDCB77900C7486B /* LaunchScreen.storyboard in Resources */,
+				98199E471EDCB9D600C7486B /* OtherData.plist in Resources */,
 				98199E3A1EDCB77900C7486B /* Assets.xcassets in Resources */,
+				98199E461EDCB9D600C7486B /* Data.plist in Resources */,
 				98199E381EDCB77900C7486B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
