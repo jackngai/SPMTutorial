@@ -35,6 +35,8 @@ class ViewController: UIViewController {
         let stringValue = "Alex"
         var dict = ["name": "John", "age":34] as [String : Any]
         
+        SwiftyPlistManager.shared.start(plistNames: [dataPlistName], logging: true)
+        
 
     }
 
